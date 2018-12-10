@@ -1,0 +1,20 @@
+This file is just a walk-through of how to use this program. An example of use can be seen in "example_of_running_code.jpg".
+
+How to compile and use:
+
+	In order to compile the program the code "make" has to be run. This will call the makefile and the makefile will compile the .c files. Once compiled the program can be run by typing "./runprogram x" with x being the function numbers (either 1,2 or 3).
+
+Example of use:
+	make
+	./runprogram 1
+
+	The above code will compile the code and run function 1.
+
+Error handling:
+
+	If argc (number of inputs) is less than 2 (runprogram is the first input and the function number is the second) then the following text will be displayed and the code will exit without using any of the functions:
+	"No function number input"
+
+	If a valid function number is not put after ./runprogram then the following error will be displayed and the program will exit without running any functions:
+	"A valid function number was not input
+	Either input 1, 2 or 3 after ./runprogram"
